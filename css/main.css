@@ -38,6 +38,20 @@ h3 {
     font-size: 250%;
 }
 
+@media(max-width:60em) {
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    h3 {
+        font-size: 100%;
+    }
+}
+
 * {
     margin:0;
     padding:0;
