@@ -41,6 +41,7 @@ h3 {
 @media(min-width:60em) {
     h1 {
         font-size: 800%;
+        white-space: nowrap;
     }
 
     h2 {
