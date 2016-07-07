@@ -1,0 +1,162 @@
+body {
+    background-color: #9252CD;
+}
+
+.center {
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.padded {
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 30px;
+    transform: translate(0, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 128px
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+* {
+    margin:0;
+    padding:0;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+html, body {
+    width:100%;
+    height:100%;
+}
+body {font-family:sans-serif;}
+body > div {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:transparent center no-repeat;
+    background-size:cover;
+}
+/*body > div:nth-child(3) {*/
+    /*background:#f0f0f0;*/
+    /*overflow:hidden;*/
+/*}*/
+.binary {
+    position:absolute;
+    left:0;
+    top: 0;
+    height:20%;
+    width: 25%;
+    /*background: #B6AEF0;*/
+    background: #2E1CAF;
+}
+
+.binaryDesc {
+    position:absolute;
+    left:25%;
+    top: 0;
+    height:20%;
+    width: 75%;
+    /*background: #2E1CAF;*/
+    background:#6A5BD0;
+}
+
+.algo {
+    position:absolute;
+    left:0;
+    top: 20%;
+    height:20%;
+    width: 25%;
+    /*background:#8B7FE1;*/
+    background: #2E1CAF;
+}
+
+.algoDesc {
+    position:absolute;
+    right:0;
+    top: 20%;
+    height:20%;
+    width: 75%;
+    /*background:#4D3EBF;*/
+    background:#6A5BD0;
+}
+
+.crypto {
+    position:absolute;
+    left:0;
+    top: 40%;
+    height:20%;
+    width: 25%;
+    /*background:#6A5BD0;*/
+    background: #2E1CAF;
+}
+
+.cryptoDesc {
+    position:absolute;
+    right:0;
+    top: 40%;
+    height:20%;
+    width: 75%;
+    background:#6A5BD0;
+}
+
+.web {
+    position:absolute;
+    left:0;
+    top: 60%;
+    height:20%;
+    width: 25%;
+    /*background:#4D3EBF;*/
+    background: #2E1CAF;
+}
+
+.webDesc {
+    position:absolute;
+    right:0;
+    top: 60%;
+    height:20%;
+    width: 75%;
+    /*background:#8B7FE1;*/
+    background:#6A5BD0;
+}
+
+.forensics {
+    position:absolute;
+    left:0;
+    top: 80%;
+    height:20%;
+    width: 25%;
+    background:#2E1CAF;
+}
+
+.forensicsDesc {
+    position:absolute;
+    right:0;
+    top: 80%;
+    height:20%;
+    width: 75%;
+    /*background: #B6AEF0;*/
+    background:#6A5BD0;
+}
+
+p {margin:1em 0;}
