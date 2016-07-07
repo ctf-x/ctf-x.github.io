@@ -22,20 +22,20 @@ h1 {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 128px
+    font-size: 800%;
 }
 
 h2 {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 32px
+    font-size: 250%
 }
 
 h3 {
     color: white;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 250%;
 }
 
 * {
