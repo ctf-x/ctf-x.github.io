@@ -22,33 +22,33 @@ h1 {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 800%;
+    font-size: 300%;
 }
 
 h2 {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 250%
+    font-size: 100%;
 }
 
 h3 {
     color: white;
     font-weight: bold;
-    font-size: 250%;
+    font-size: 100%;
 }
 
-@media(max-width:60em) {
+@media(min-width:60em) {
     h1 {
-        font-size: 300%;
+        font-size: 800%;
     }
 
     h2 {
-        font-size: 100%;
+        font-size: 250%
     }
 
     h3 {
-        font-size: 100%;
+        font-size: 250%;
     }
 }
 
