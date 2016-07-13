@@ -13,7 +13,7 @@ $(document).ready(function() {
             visited.push(idx);
             var self = $(this);
             self.find(".typed").typed({
-                typeSpeed: 1,
+                typeSpeed: -1,
                 stringsElement: self.find('.typed-strings')
             });
         }
