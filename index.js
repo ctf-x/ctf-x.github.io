@@ -13,7 +13,7 @@ $(document).ready(function() {
     rise.translate({
             from: { x: 0, y: height / 2.5 },
             to: { x: 0, y: 0 },
-            duration: 1000,
+            duration: 4000,
             delay: 250
         });
     var resetHeight = function(selector) {
@@ -25,7 +25,7 @@ $(document).ready(function() {
         .translate({
             from: { x: -width/1.75, y: 0 },
             to: { x: 0, y: 0 },
-            duration: 600,
+            duration: 1200,
             stiffness: 4
         })
         .scale({
@@ -57,6 +57,13 @@ $(document).ready(function() {
                 stringsElement: self.find('.typed-strings')
             });
             $('.slide-right').not(self).css('visibility', 'hidden');
+            var selector = self.find('.slide-right');
+            if(selector.length>0) {
+              selector.css('visibility', 'visible');
+              slideRight.applyTo(selector);
+            }
+            //selector.css('visibility', 'visible');
+            /*$('.slide-right').not(self).css('visibility', 'hidden');
             resetHeight($('.rise').not(self));
             var riseSel = self.find('.rise');
             if(riseSel.length === 0) return;
@@ -65,7 +72,7 @@ $(document).ready(function() {
                 var selector = self.find('.slide-right');
                 selector.css('visibility', 'visible');
                 slideRight.applyTo(selector);
-            });
+            });*/
         }
     });
 
