@@ -1,84 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullpage.min.js"></script>
+    <script src="js/typed.min.js"></script>
 </head>
 
 <body>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-
 <div id="particles-js"></div>
+<div id="fullpage">
+    <div class="section">
+        <h1>CTF(x)</h1>
+        <h2>August 13-14, 2016</h2>
+    </div>
+    <div class="section" style="background-color: #2E1CAF">
+        <h2>What is a CTF?</h2>
+        <div class="typed-strings">
+            <p>Capture The Flag, or CTF, is a name given to a certain class of tech and data security competitions.</p>
+            <p>While different CTFs sometimes take different forms, CTF(x) is a traditional Jeopardy style CTF.</p>
+        </div>
+        <div style="text-align: center">
+            <div class="dynamic-div">
+                <h3><span class="typed"></span></h3>
+            </div>
+        </div>
+    </div>
+    <div class="section" style="background-color: #D74CB4">
+        <h2>When is CTF(x)?</h2>
+        <div class="typed-strings">
+            <p>CTF(x) will take place Saturday, August 13, 2016 6PM EDT to Sunday, August 14, 2016 6PM EDT</p>
+        </div>
+        <div style="text-align: center">
+            <div class="dynamic-div">
+                <h3>
+                    <span class="typed"></span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="section" style="background-color: #6A5BD0">
+        <h1>Problem Types</h1>
+    </div>
+</div>
+
 <script src="js/particles.min.js"></script>
 <script src="index.js"></script>
-
-
-<div data-0="transform:translate(0,0%);" data-100p="transform:translate(0,-100%);">
-    <div style="height: 30%"></div>
-    <h1>CTF(x)</h1>
-    <h2>August 13-14, 2016</h2>
-</div>
-
-<div style="background-color: #D74CB4" data-0="transform:translate(0,100%);" data-100p="transform:translate(0,0%)" data-275p="" data-375p="transform:translate(0,-100%)">
-    <h1 class="center" style="text-align: center;">Problem Types</h1>
-    <div class="binary" data-125p="transform:translate(-100%,0%);" data-_binary-125p="transform:translate(0,0%);">
-        <h3 class="center">Binary</h3>
-    </div>
-    <div class="algo" data-150p="transform:translate(-100%,0%);" data-_algo-150p="transform:translate(0,0%);">
-        <h3 class="center">Algorithms</h3>
-    </div>
-    <div class="crypto" data-175p="transform:translate(-100%,0%);" data-_crypto-175p="transform:translate(0,0%);">
-        <h3 class="center">Cryptography</h3>
-    </div>
-    <div class="web" data-200p="transform:translate(-100%,0%);" data-_web-200p="transform:translate(0,0%);">
-        <h3 class="center">Web</h3>
-    </div>
-    <div class="forensics" data-225p="transform:translate(-100%,0%);" data-_forensics-225p="transform:translate(0,0%);">
-        <h3 class="center">Forensics</h3>
-    </div>
-
-    <div class="binaryDesc" data-125p="transform:translate(100%,0%);" data-_binaryDesc-175p="transform:translate(0,0%);">
-        <h3 class="padded">Binary description placeholder</h3>
-    </div>
-    <div class="algoDesc" data-150p="transform:translate(100%,0%);" data-_algoDesc-200p="transform:translate(0,0%);">
-        <h3 class="padded">Algorithm description placeholder</h3>
-    </div>
-    <div class="cryptoDesc" data-175p="transform:translate(100%,0%);" data-_cryptoDesc-225p="transform:translate(0,0%);">
-        <h3 class="padded">Crypto description placeholder</h3>
-    </div>
-    <div class="webDesc" data-200p="transform:translate(100%,0%);" data-_webDesc-250p="transform:translate(0,0%);">
-        <h3 class="padded">Web description placeholder</h3>
-    </div>
-    <div class="forensicsDesc" data-225p="transform:translate(100%,0%);" data-_forensicsDesc-275p="transform:translate(0,0%);">
-        <h3 class="padded">Forensics description placeholder</h3>
-    </div>
-</div>
-
-<!--<div data-_box-100p="transform:translate(0,100%);" data-_box-200p="transform:translate(0,0%);"></div>-->
-
-<script type="text/javascript" src="js/skrollr.min.js"></script>
-<script type="text/javascript">
-    skrollr.init({
-        scale: 0.5,
-        constants: {
-            binary: '25p',
-            algo: '25p',
-            crypto: '25p',
-            web: '25p',
-            forensics: '25p',
-            misc: '25p',
-
-            binaryDesc: '100p',
-            algoDesc: '100p',
-            cryptoDesc: '100p',
-            webDesc: '100p',
-            forensicsDesc: '100p',
-            miscDesc: '100p'
-        }
-    });
-</script>
 </body>
 </html>
