@@ -84,16 +84,12 @@ body {font-family:sans-serif;}
 
 p {margin:1em 0;}
 
-p.slide-right {
+p#problem-types {
   color: white;
   font-family: 'Source Code Pro', Monaco, monospace;
   text-align: center;
   margin-bottom: 2em;
 }
-
-/*.slide-right {
-    margin: 5%;
-}*/
 
 .typed-strings {
     display: none;
