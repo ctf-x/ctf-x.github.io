@@ -62,17 +62,6 @@ $(document).ready(function() {
               selector.css('visibility', 'visible');
               slideRight.applyTo(selector);
             }
-            //selector.css('visibility', 'visible');
-            /*$('.slide-right').not(self).css('visibility', 'hidden');
-            resetHeight($('.rise').not(self));
-            var riseSel = self.find('.rise');
-            if(riseSel.length === 0) return;
-            riseSel.css('top', '0');
-            rise.applyTo(riseSel).then(function() {
-                var selector = self.find('.slide-right');
-                selector.css('visibility', 'visible');
-                slideRight.applyTo(selector);
-            });*/
         }
     });
 
