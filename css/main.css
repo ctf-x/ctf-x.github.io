@@ -91,6 +91,7 @@ p {margin:1em 0;}
 
 .typed {
     display: inline;
+    line-height: 150%;
     word-wrap: break-word;
 }
 
