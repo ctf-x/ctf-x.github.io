@@ -52,11 +52,6 @@ h3 {
     max-width: 80%;
 }
 
-.typed {
-    height: 40vh;
-    word-wrap: break-word;
-}
-
 @media(min-width:60em) {
     h1 {
         font-size: 800%;
@@ -92,6 +87,11 @@ p {margin:1em 0;}
 
 .typed-strings {
     display: none;
+}
+
+.typed {
+    height: 30vh;
+    word-wrap: break-word;
 }
 
 .typed-cursor{
