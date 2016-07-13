@@ -53,7 +53,7 @@ $(document).ready(function() {
 
             var self = $(this);
             self.find(".typed").typed({
-                typeSpeed: -1,
+                typeSpeed: -10,
                 stringsElement: self.find('.typed-strings')
             });
             $('.slide-right').not(self).css('visibility', 'hidden');
