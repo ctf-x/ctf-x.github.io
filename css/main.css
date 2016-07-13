@@ -75,6 +75,10 @@ body {font-family:sans-serif;}
 
 p {margin:1em 0;}
 
+.slide-right {
+    margin: 5%;
+}
+
 .typed-strings {
     display: none;
 }
