@@ -84,7 +84,7 @@ body {font-family:sans-serif;}
 
 p {margin:1em 0;}
 
-p#problem-types {
+#problem-types > p {
   color: white;
   font-family: 'Source Code Pro', Monaco, monospace;
   text-align: center;
