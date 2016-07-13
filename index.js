@@ -21,4 +21,8 @@ $(document).ready(function() {
             }, 500);
         }
     });
+    var elements = $(".typed");
+    setInterval(function() {
+        elements.toggle().toggle();
+    }, 20)
 });
