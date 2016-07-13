@@ -8,6 +8,7 @@ $(document).ready(function() {
         afterLoad: function() {
             var self = $(this);
             self.find(".typed").typed({
+                typeSpeed: 1,
                 stringsElement: self.find('.typed-strings')
             });
         },
