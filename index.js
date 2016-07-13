@@ -11,14 +11,6 @@ $(document).ready(function() {
                 typeSpeed: 1,
                 stringsElement: self.find('.typed-strings')
             });
-        },
-        onLeave: function(){
-            var self = $(this);
-            setTimeout(function() {
-                self.find(".typed").typed({
-                    strings: ['']
-                })
-            }, 500);
         }
     });
     var elements = $(".typed");
