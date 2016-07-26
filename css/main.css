@@ -4,11 +4,26 @@ body {
     height: 100%;
 }
 
-a:link {
+
+a.button {
+    font-family: 'Source Code Pro', Monaco, monospace;
+    text-decoration: none;
+    width: 115px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #800080
+    border-radius: 2px;
+    color: white;
+}
+
+a.yellow:link {
     color: yellow;
 }
 
-a:visited {
+a.yellow:visited {
     color: yellow;
 }
 
