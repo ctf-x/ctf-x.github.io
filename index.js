@@ -69,5 +69,11 @@ $(document).ready(function() {
     var elements = $(".typed");
     setInterval(function() {
         elements.toggle().toggle();
-    }, 20)
+    }, 20);
+    
+    $('.team-member').click(function() {
+        var url = $(this).attr('url');
+        console.log(url);
+        window.open(url, '_blank');
+    });
 });

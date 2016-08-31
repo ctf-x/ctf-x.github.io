@@ -136,3 +136,41 @@ p {margin:1em 0;}
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+#team-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #37c149;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.team-member {
+/*	background-color: #31ad41;*/
+	background-color: #37c149;
+	border-radius: 20px;
+	width: 240px;
+/*	flex-grow: 1;*/
+	height: 300px;
+	margin: auto;
+	max-width: 40vw;
+	max-height: 40vw;
+	
+	text-align: center;
+}
+
+/*https://www.abeautifulsite.net/how-to-make-rounded-images-with-css*/
+.img-circle {
+    border-radius: 50%;
+}
+
+.profile-img {
+	text-aligin: center;
+	height: 180px;
+	width: 180px;
+	max-width: 30vw;
+	max-height: 30vw;
+}
